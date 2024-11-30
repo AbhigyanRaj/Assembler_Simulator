@@ -4,25 +4,7 @@ This project is an **Assembler and Simulator** developed as part of the **Comput
 
 ---
 
-**Made with ❤️ by Abhigyann**
-
----
-
-## Table of Contents
-1. [Features](#features)
-2. [Getting Started](#getting-started)
-   - [Prerequisites](#prerequisites)
-   - [Compilation Command](#compilation-command)
-   - [Execution Command](#execution-command)
-3. [Usage](#usage)
-4. [Examples](#examples)
-   - [Sample Input](#sample-input)
-   - [Sample Output](#sample-output)
-5. [Project Structure](#project-structure)
-6. [Instruction Set](#instruction-set)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Acknowledgments](#acknowledgments)
+**Made by Abhigyann**
 
 ---
 
@@ -43,6 +25,22 @@ This project is an **Assembler and Simulator** developed as part of the **Comput
 - **Output Display**: Shows results for operations like arithmetic, logical, and memory access.
 
 ---
+
+### Sample Input and Ouput
+
+```assembly
+LOAD R1, 10        # Load the value 10 into register R1
+ADD R1, R2         # Add the value in R2 to R1
+STORE R1, 0x20     # Store the value in R1 to memory address 0x20
+HALT               # Stop execution
+
+0001 0001 0000000000001010
+0010 0001 0010 000000000000
+0100 0001 0000000000100000
+1111 0000 0000 000000000000
+
+---
+```
 
 ## Getting Started
 
